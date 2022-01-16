@@ -1,22 +1,20 @@
-package com.example.learning
+/*package com.example.learning
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
 import com.example.learning.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
+class ViewBind  : AppCompatActivity() {
     lateinit var bindClass : ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         bindClass = ActivityMainBinding.inflate(layoutInflater)
         setContentView(bindClass.root)
-
-        bindClass.bTest.setOnClickListener {
-            bindClass.tvTest.text = "123123132"
-        }
+        bindClass.tvTest.text = "123123132"
     }
-}
 
 
+
+    }
+} */

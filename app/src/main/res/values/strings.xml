@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Learning</string>
+    <string name="bText1">Кнопка раз</string>
+    <string name="bText2">Кнопка два</string>
+    <string name="bText3">Кнопка три</string>
 </resources>
