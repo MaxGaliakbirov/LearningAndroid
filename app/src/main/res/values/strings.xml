@@ -3,4 +3,10 @@
     <string name="bText1">Кнопка раз</string>
     <string name="bText2">Кнопка два</string>
     <string name="bText3">Кнопка три</string>
+    <string name="textView">Введите колличество ваших подписчиков</string>
+    <string name="edTextHint">Кол-во подписчиков</string>
+    <string name="btText">Провести проверку</string>
+    <string name="tvResultTo1000">Вы начинающий блогер</string>
+    <string name="tvResultTo100000">Вы средний блогер</string>
+    <string name="tvResultToOver">Вы суперзвезда</string>
 </resources>
