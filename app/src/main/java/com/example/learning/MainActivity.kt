@@ -1,5 +1,6 @@
 package com.example.learning
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -50,7 +51,13 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }
+        bindingClass.button.setOnClickListener {
+            val intent = Intent(this, TestActivity::class.java)
+            startActivity(intent)
+        }
     }
+
+
 
 }
 

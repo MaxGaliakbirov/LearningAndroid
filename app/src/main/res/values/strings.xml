@@ -10,4 +10,7 @@
     <string name="tvResultTo100000">Нет такого работника</string>
     <string name="tvResultToOver">Вы суперзвезда</string>
     <string name="hintPassword">Введите Ваш код</string>
+    <string name="testAct">БУМ!</string>
+    <string name="bText4">Перейти в другое активити</string>
+    <string name="bTestAct">Назад</string>
 </resources>
