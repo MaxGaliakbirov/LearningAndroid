@@ -6,68 +6,49 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/edValue"
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClickSignUp"
+        android:text="@string/sign_up"
+        app:layout_constraintEnd_toEndOf="@+id/buttonSingIn"
+        app:layout_constraintStart_toStartOf="@+id/buttonSingIn"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSingIn" />
+
+    <Button
+        android:id="@+id/buttonSingIn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="40dp"
         android:layout_marginEnd="32dp"
-        android:ems="10"
-        android:gravity="center"
-        android:hint="@string/edTextHint"
-        android:inputType="text"
-        android:minHeight="48dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/tvResult"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:gravity="center"
-        android:text="TextView"
-        android:textColor="@android:color/holo_green_dark"
-        android:visibility="gone"
-        app:layout_constraintEnd_toEndOf="@+id/edValue"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/edValue"
-        app:layout_constraintTop_toBottomOf="@+id/edPassword" />
-
-    <Button
-        android:id="@+id/btResult"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="@string/btText"
-        app:layout_constraintEnd_toEndOf="@+id/edValue"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/edValue"
-        app:layout_constraintTop_toBottomOf="@+id/tvResult" />
-
-    <EditText
-        android:id="@+id/edPassword"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/hintPassword"
-        android:inputType="textPersonName"
-        android:textAlignment="center"
-        app:layout_constraintEnd_toEndOf="@+id/edValue"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/edValue"
-        app:layout_constraintTop_toBottomOf="@+id/edValue" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="30dp"
-        android:text="@string/bText4"
+        android:layout_marginBottom="356dp"
+        android:onClick="onClickSignIn"
+        android:text="@string/button_sign_in"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSingIn"
+        app:layout_constraintEnd_toEndOf="@+id/buttonSingIn"
+        app:layout_constraintStart_toStartOf="@+id/buttonSingIn" />
+
+    <ImageView
+        android:id="@+id/imAvatar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/tvInfo"
+        app:layout_constraintEnd_toEndOf="@+id/buttonSingIn"
+        app:layout_constraintStart_toStartOf="@+id/buttonSingIn"
+        app:srcCompat="@drawable/avatar1" />
 </androidx.constraintlayout.widget.ConstraintLayout>

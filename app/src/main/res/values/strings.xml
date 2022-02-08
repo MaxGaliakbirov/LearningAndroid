@@ -1,16 +1,13 @@
 <resources>
     <string name="app_name">Learning</string>
-    <string name="bText1">Кнопка раз</string>
-    <string name="bText2">Кнопка два</string>
-    <string name="bText3">Кнопка три</string>
-    <string name="textView">Введите имя</string>
-    <string name="edTextHint">Имя</string>
-    <string name="btText">Провести проверку</string>
-    <string name="tvResultTo1000">Получите за этот месяц</string>
-    <string name="tvResultTo100000">Нет такого работника</string>
-    <string name="tvResultToOver">Вы суперзвезда</string>
-    <string name="hintPassword">Введите Ваш код</string>
-    <string name="testAct">БУМ!</string>
-    <string name="bText4">Перейти в другое активити</string>
-    <string name="bTestAct">Назад</string>
+    <string name="button_sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="avatar">Avatar</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="name">Имя</string>
+    <string name="second_name">Фамилия</string>
+    <string name="thrid_name">Отчество</string>
+    <string name="done">Готово</string>
+    <string name="button_sign_in_exit">Sign out</string>
 </resources>
